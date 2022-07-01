@@ -1,0 +1,43 @@
+body{background-image:url("bg.png");margin:0}
+body,a{color:#9df;font-family:"sans"}
+.box,.header{margin-left:auto;margin-right:auto}
+.header{width:100%;max-width:1040px;display:block}
+.box{
+	margin-bottom:12px;
+	max-width:1000px;
+	width:100%;
+	border-collapse:collapse;
+	text-shadow: 0 0 4px #04f
+}
+td{padding:0}
+.box-top{background-image:url("box-top.png");height:50px}
+.box-top-left{background-image:url("box-top-left.png")}
+.box-header-corner{background-image:url("box-header-corner.png");width:25px}
+.box-top-right{background-image:url("box-top-right.png")}
+.box-left{background-image:url("box-left.png");width:28px}
+.box-right{background-image:url("box-right.png");width:28px}
+.box-bottom{background-image:url("box-bottom.png");height:25px}
+.box-bottom-left{background-image:url("box-bottom-left.png")}
+.box-bottom-right{background-image:url("box-bottom-right.png")}
+.box-header{
+	background-image:url("box-header.png");
+	width:0;
+	margin-top:20px;
+	margin-bottom:0;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:bottom;
+	white-space:nowrap;
+	font-size:24px;
+	font-weight:bold
+}
+.box-content{
+	background-color:rgba(180,219,255,0.25);
+	padding:16px 28px 6px 28px;
+	text-align:justify;
+	font-size:16px
+}
+h3{margin:4px 0 8px 0}
+p{margin-top:1px;line-height:22px}
+.bruh{color:#000;font-size:32px;text-align:center}
+.footer{margin-top:320px;float:right}
